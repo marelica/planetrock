@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title><img src="https://upload.wikimedia.org/wikipedia/sr/thumb/a/a4/RTS_logo.svg/1280px-RTS_logo.svg.png"></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+  <style>
+  .lista li {
+  	display: inline;
+  	list-style-type: none;
+  	padding: 15px;
+  }
+
+.navbar {
+	background-color: red;
+}
+.lista1 li{
+	font-size:11px;
+}
+
+.lista1 li:hover{text-decoration:underline;}
+.latinica {
+	width:40px;
+	margin-top:1px;
+	padding:10px;	
+	font-size:12px;
+	background-color:#890000;
+	color:white;
+	cursor:pointer;
+}
+.latinica:hover{
+	opacity:0.9;
+}
+
+.lista2 li{color:white; font-size:19px; margin-top:10px; padding:1px;}
+.lista2 li:hover{background-color:#668ba2; transition:0.3s;}
+
+.nogomet{
+	background-color:#003f65;
+	color:white;	
+	text-align:center;
+}
+
+.orlici{ background-color:lightgrey; padding:18.5px; border-left:5px white solid; color:white; font-size:25px;}
+
+.vest1 img:hover {
+	cursor: pointer;
+	opacity: 0.8;
+
+}
+
+.preporuka h4 {
+	font-family: Times;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+
+.us-open h4 {
+	font-family: Times;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+
+.orban img:hover {
+	opacity: 0.8;
+}
+
+.orban p:hover {
+	color: red;
+	transition: 1s;
+}
+
+.orban p {
+	font-size: 19px;
+	font-family: Times;
+	text-align: left;
+	font-weight: bold;
+	color: #2f306d;
+	cursor: pointer;
+	line-height: 1;
+}
+
+.film1 li {
+	list-style-type: none;
+	display: inline;
+	padding: 5px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: Times;
+}
+
+.film1 ul {
+	background-color: grey;
+}
+
+.film2 li {
+	list-style-type: none;
+	display: inline;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: Times;
+}
+
+.film2 ul {
+		background-color: grey;
+}
+
+.film3 ul {
+		background-color: grey;
+}
+
+.film3 li {
+	list-style-type: none;
+	display: inline;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: Times;
+}
+
+.film1 img:hover {
+	opacity: 0.8;
+}
+
+.film2 img:hover {
+	opacity: 0.8;
+}
+
+.film3 img:hover {
+	opacity: 0.8;
+}
+
+.slicice img:hover {
+	opacity: 0.8;
+}
+
+.usopen h4 {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.usopen h4:hover {
+	color: red;
+	transition: 0.6s;
+	cursor: pointer;
+}
+
+.vestiusopen h4 {
+	color: blue;
+	font-weight: bold;
+}
+
+.vestiusopen p {
+	line-height: 1;
+	color: black;
+}
+
+.vestiusopen h4:hover {
+	color: red;
+	transition: 0.8s;
+	cursor: pointer;
+}
+
+.vestiusopen img:hover {
+	opacity: 0.8;
+}
+
+.sport h4 {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.sport h4:hover {
+	color: red;
+	transition: 0.6s;
+	cursor: pointer;
+}
+
+.spanovicka h4 {
+	color: blue;
+	font-weight: bold;
+}
+
+.spanovicka h4:hover {
+	color: red;
+	transition: 0.6s;
+	cursor: pointer;
+}
+
+.magazin h4 {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.magazin h4:hover {
+	color: red;
+	transition: 0.6s;
+	cursor: pointer;
+}
+
+.muzika h4 {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+}
+
+
+.naslov {background-color:#c0c0c0;margin-top:15px; height:22px;}
+	h2{font-size: 10px; margin-top:3px;}
+	.podnaslov1{padding:10px; background-color:#e34747;}
+	.podnaslov2{background-color: #e0d8ff; margin-left:-20px; width:180%;}
+	.podnaslov3{padding: 6px; background-color: #ff870d; font-size:20px; text-align:center;}
+	.dropdown-toggle{height:40px;}
+
+
+.rubrika p {
+	color: blue;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.rubrika h1 {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: sans-serif;
+	color: #8693f4;
+}
+
+.rubrika p:hover {
+	color: red;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.spisak ul{list-style:none;padding:0;}
+
+.spisak li{
+	float:left;
+	padding:8px;
+	padding-top:15px;	
+	font-weight:bold;
+}
+
+.novost ul{
+	display:block-inline;
+	
+}
+
+
+
+  </style>
+
+ 
+  </head>
+
+  <body>            
+
+
+
+  <!--POCETAK VIDLJIVOG DELA STRANICEE -->
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">  	<!-- PRVI RED POCEEEEEEEEEEEEEEEEEEETAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-->
+
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+
+			<div class="container-fluid">
+
+				<div class="col-lg-12">	
+
+				</div>
+
+					<div class="col-lg-2">
+
+							<a class="navbar-brand" style="margin-left:10%; border-left: 1px solid black; border-right: 1px solid black; font-size:12px; color:white;" href="#">РАДИО-ТЕЛЕВИЗИЈА СРБИЈЕ</a>
+					</div>
+
+						<div class="col-lg-1">
+
+						</div>
+    
+							<div class="col-lg-7">
+
+								<ul class="nav navbar-nav lista1">    
+								<li><a href="#" style="color:white;">O JАВНОМ СЕРВИСУ</a></li>
+								<li><a href="#" style="color:white;">АКЦИЈЕ</a></li>
+								<li><a href="#" style="color:white;">ФИЛМСКИ ПРОГРАМ</a></li>
+								<li><a href="#" style="color:white;">ДИЈАСПОРА</a></li>
+								<li><a href="#" style="color:white;">МУЗИЧКА ПРОДУКЦИЈА</a></li>
+								<li><a href="#" style="color:white;">РТС ПРЕДСТАВЉА</a></li>
+								<li><a href="#" style="color:white;">ПГП</a></li>
+								<li><a href="#" style="color:white;">ЕВРОСОНГ</a></li>
+								</ul>
+
+							</div>
+
+				<div class="col-lg-2">
+
+
+				</div>
+	    	</div>
+	
+
+<!-- DRUGAAAAA LINIJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA HEEEEEEEEEEEEEEEEEEEDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEERAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+
+<div class="second-line col-lg-12" style="background-color:#003f65;">
+
+	<div class="col-lg-2">
+
+		<h2 style="color:white;	font-weight:bold; font-size:65px; margin:4px; margin-left:15%; font-style:italic;">РТС</h2>
+
+	</div>
+
+			<div class="col-lg-1">
+
+			</div>
+
+				<div class="col-lg-6">
+
+				<ul class="nav navbar-nav lista2">
+
+			      <li><a href="#" style="color:white;">ВЕСТИ</a></li>
+			      <li><a href="#" style="color:white;">СПОРТ</a></li>
+			      <li><a href="#" style="color:white;">МАГАЗИН</a></li>
+			      <li><a href="#" style="color:white;">ТВ</a></li>
+			      <li><a href="#" style="color:white;">РАДИО</a></li>
+			      <li><a href="#" style="color:white;">ЕМИСИЈЕ</a></li>
+			      <li><a href="#" style="color:white;">РТС</a></li>
+			      <li><a href="#" style="color:white;">РИО 2016</a></li>
+			      </ul>
+
+				</div>
+
+					<div class="col-lg-3">
+				
+					</div>
+
+</div>
+
+	
+
+
+		</nav> <!-- NNNNNNNNNNNNNAAAAAAAAAAAAAAAAAAAAVVVVVVVVVVVVVVVVVV -->
+
+
+
+
+
+
+</div> <!-- PRVI ROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOWWWWWWWWWWWWWWWWWWW KRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJJJJJJJJJJJJJJJJJJJJ -->
+
+
+
+
+
+<!-- POCINJEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE DRUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUGIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW -->
+
+
+
+
+
+
+<div class="row"> <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSIIIIIIIIIIIIIIIIIIIIVVVVVVVVVVVVVAAAAAAAAAAAA TRAAAAAAAAAAAKAAAAAAAAAAAAAA -->
+	<div class="traka-x col-lg-12" style="background-color:lightgrey; height:35px;margin-top:130px;">
+		<div class="container">
+			<div class="sekcija col-lg-6">
+				<div class="jedan col-lg-2">
+					<h5>НАСЛОВНА</h5>
+				</div>
+				<div class="dva col-lg-2">
+					<h5>ВЕСТИ</h5>
+
+				</div>
+				<div class="tri col-lg-2">
+					<h5>ХРОНИКА</h5>
+				</div>
+			</div>
+			<div class="col-lg-6">
+			</div>
+		</div>
+	</div>
+</div> <!-- SIIIIIIIIIIIIIIIIIIIIVAAAAAAAAAAAAAAAAA TRAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAA KRAAAAAAAAAAj -->
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+
+<div class="container">
+
+										<div class="col-lg-9" style="border-right: 1px solid lightgrey;">	<!-- LEVA STRANA EKRANA LG 9, TJ SADA JE TRETIRAMO KAO 12 -->
+
+	<div class="col-lg-12" style="background-color:lightgrey; text-align:center">
+
+		<iframe width="650" height="100" src="https://www.youtube.com/embed/Ft9hkMvEgcY" frameborder="0" allowfullscreen></iframe>
+
+	</div>
+
+	<div class="nogomet col-lg-4">
+
+		<h3>ФУДБАЛ</h3>
+
+		<br>
+
+	</div>
+
+	<div class="orlici col-lg-8">
+
+		<h4>Сјајним орлићима само бод у Вићенци</h4>
+
+	</div>
+
+	<p>&nbsp;</p>
+
+	<div class="row">	<!-- NOVI ROW -->
+
+	<div class="vest1 col-lg-8">
+
+		<img src="http://www.theimaginativeconservative.org/wp-content/uploads/2014/11/o-DETECTIVE-facebook.jpg" width="100%">
+		 
+			<p style="background-color:black; height: 80px; text-align: left; font-size: 22px; font-family: Times; font-weight: bold; color: white;">Оптужени за шпијунажу нагодио се са Тужилаштвом <br> <span style="text-align: center; font-size: 13px; font-family: Times;">Чедo Чоловић, осумњичени за шпијунажу у корист Хрватске, нагодио се са Тужилаштвом..</span></p>
+
+	</div>
+
+		<div class="col-lg-4 orban">
+
+		<img src="http://nol.hu/data/cikk/1/54/90/43/cikk_1549043/D_KOS20150701032.jpg" width="100%" height="220">
+
+		<p> Вучић и Орбан: Унапређење сарадње у свим областима</p> <div style="font-size: 15px; font-family: Times; color: black; line-height: 1;">Односи Србије и Мађарске напредују на свим пољима, а управо данас договорили смо се да до краја ове године...</div><hr>
+
+
+
+		</div>
+
+
+
+
+	</div>		<!-- NOVI ROW KRAAJ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<div style="background-color: grey;" class="col-lg-12 preporuka"> <!-- NOVI POCETAK ROW -->
+			
+					<h4>ТВ ПРЕПОРУКА</h4> <!-- SIVAAAAAAAA TRAKAAAAAAA SA TV PREPORUKOOOM -->
+
+				</div>  <!-- KRAJ ROW -->
+
+
+
+
+
+
+
+
+
+
+<div style="background-color: #e5e5e5;" class="col-lg-12">
+
+	<div class="col-lg-4 film1">
+
+					<br>
+
+					<img src="http://2.bp.blogspot.com/-VKrP1PzkUCI/VNd1of_3cXI/AAAAAAAADT8/rtr_YhRDfmI/s1600/
+					the-breed-hollywood-horror-movie-in-hindi-watch-online-and-download.jpg" width="100%">
+					<ul><li>Раса</li> <li>РТС 1</li> <li>18:20</li></ul>
+
+	</div>
+
+		<div class="col-lg-4 film2">
+
+					<br>
+
+					<img src="http://401ak47.com/wp-content/uploads/2012/10/dawn-of-the-dead-best-zombie-movie.jpg" width="100%">
+					<ul><li>Зона мртвих</li> <li>РТС 1</li> <li>20:00</li></ul>
+
+		</div>
+
+			<div class="col-lg-4 film3">
+
+					<br>
+
+					<img src="https://cdn.pastemagazine.com/www/blogs/lists/Asterisk.jpg" width="100%">
+					<ul><li>Астерикс и Обеликс</li> <li>РТС 1</li> <li>22:15</li></ul>
+
+			</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="row">  <!-- NOVI ROW -->
+
+<div class="col-lg-4">
+				
+<br>
+
+<img src="http://cdn2.newsok.biz/cache/sq500-9ff692207f4e93d4aba2d0748e30e4f1.jpg" width="100%"><br><br>
+
+<p style="color: blue; font-size: 18px; font-weight: bold; line-height: 1;">Бивши премијер Италије: Плашим се да у јесен 2017. неће бити ЕУ</p>
+<p style="font-size: 14px; color: black; line-height: 1;">Не постоји национално решење за тероризам или миграције, то јесу различите ствари, али заједничко им је једно – за обе је потребно европско решење, рекао је бивши премијер Италије Енрико Лета и изразио...</p><br>
+
+	<div class="col-lg-12">
+
+			<div style= "padding: 0;" class="col-lg-3">
+
+				<img src="http://srbin.info/wp-content/uploads/2014/08/pristina-panorama-200x200.jpg" width="100%" height="80">
+
+			</div>
+
+				<div class="col-lg-9">
+
+				<p style="font-size: 13px; line-height: 1;"">Путин на гробу Каримова, изабрао му наследника?</p>
+				<p style="font-size: 10px; line-height: 1;">Председник Русије Владимир Путин положио је руже на...</p>
+
+				</div>
+
+	</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<br>
+
+<img src="http://www.24sata.rs/resources/images/0000/044/245/1/44245-Saobracajka%2001%20foto%20M%20Milankovic_f005_500x500.jpg" width="100%"><br>
+
+<br>
+
+<p style="color: blue; font-size: 18px; font-weight: bold; line-height: 1;">Осумњиченом за шпијунажу три године затвора</p>
+<p style="font-size: 14px; color: black; line-height: 1;">Виши суд у Београду потврдио је нагодбу између Чеде Чоловића и Тужилаштва и осудио га на казну затвора од три године на основу споразума према којем је Чоловић признао да је шпијунирао у корист Хрватске...</p><br>
+
+<div class="col-lg-12">
+
+<div style= "padding: 0;margin-top:3px;" class="col-lg-3">
+
+<img src="http://srbin.info/wp-content/uploads/2014/08/pristina-panorama-200x200.jpg" width="100%" height="80" style= ";margin-top:3px;">
+
+</div>
+
+<div class="col-lg-9">
+
+<p style="font-size: 13px; line-height: 1; margin-top:5px;">Путин на гробу Каримова, изабрао му наследника?</p>
+<p style="font-size: 10px; line-height: 1;">Председник Русије Владимир Путин положио је руже на...</p>
+
+</div>
+
+</div>
+
+<br><br>
+
+</div>
+
+<div class="col-lg-4 slicice"> <!-- PRVA SLIKA U REDU -->
+
+<br>
+
+<div class="col-lg-12">
+
+					<div style= "padding: 0;" class="col-lg-3">
+
+<img src="http://srbin.info/wp-content/uploads/2014/08/pristina-panorama-200x200.jpg" width="100%" height="80">
+
+					</div>
+
+						<div class="col-lg-9">
+
+<p style="font-size: 13px; line-height: 1;">Формиран тим за израду статута ЗСО, Тахири поставља услове</p>
+<p style="font-size: 10px; line-height: 1;">Косовско министарство за локалну управу комплетирало...</p>
+
+						</div>
+
+							<div style= "padding: 0;" class="col-lg-3">
+
+<img src="http://srbin.info/wp-content/uploads/2014/08/pristina-panorama-200x200.jpg" width="100%" height="80">
+
+							</div>
+
+								<div class="col-lg-9">
+
+<p style="font-size: 13px; line-height: 1;">Михајловић: Ауто-пут Ниш-Мердаре-Приштина готов до 2020.</p>
+<p style="font-size: 10px; line-height: 1;">Потпредседница владе и министарка грађевинарства и...</p>
+
+								</div>
+
+									<div style= "padding: 0;" class="col-lg-3">
+
+<img src="http://srbin.info/wp-content/uploads/2014/08/pristina-panorama-200x200.jpg" width="100%" height="80">
+
+									</div>
+
+										<div class="col-lg-9">
+
+<p style="font-size: 13px; line-height: 1;"">Путин на гробу Каримова, изабрао му наследника?</p>
+<p style="font-size: 10px; line-height: 1;">Председник Русије Владимир Путин положио је руже на...</p>
+
+										</div>
+
+									<div style= "padding: 0;" class="col-lg-3">
+
+<img src="http://srbin.info/wp-content/uploads/2014/08/pristina-panorama-200x200.jpg" width="100%" height="80">
+
+									</div>
+
+								<div class="col-lg-9">
+
+<p style="font-size: 13px; line-height: 1;">Протести на лондонском аеродрому "Сити", гужве на друга два</p>
+<p style="font-size: 10px; line-height: 1;">Путници који користе три велика аеродрома у Лондону...</p>
+
+								</div>
+
+							<div style= "padding: 0;" class="col-lg-3">
+
+							<img src="http://srbin.info/wp-content/uploads/2014/08/pristina-panorama-200x200.jpg" width="100%" height="80">
+
+							</div>
+
+						<div class="col-lg-9">
+
+							<p style="font-size: 13px; line-height: 1;">Напад ауто-бомбом у Багдаду, 12 мртвих</p>
+							<p style="font-size: 10px; line-height: 1;">Најмање 12 цивила је убијено, а 28 је рањено...</p>
+						</div>
+
+					</div>
+
+				</div>  <!-- NOVI ROW KRAJ -->
+
+				<hr>
+			</div>
+
+
+		<div style="background-color: grey;" class="col-lg-12 usopen"> <!-- NOVI POCETAK ROW -->
+			
+			<h4>US OPEN 2016</h4> <!-- SIVAAAAAAAA TRAKAAAAAAA SA TV PREPORUKOOOM -->
+
+		</div>  <!-- KRAJ ROW -->
+
+
+		
+			<div class="row">
+				<div class="col-lg-4 vestiusopen"><br>
+					<img src="http://www.24sata.rs/resources/images/0000/007/230/1/7230-novak%20profimedia-0214416655_7944_1000x1000.jpg" width="100%">
+					<h4>Новак: Стен је велики шампион!</h4>
+					<p>Новак Ђоковић честитао Стену Вавринки освајање трофеја на Ју-Ес опену и рекао да је Швајцарац велики шампион...</p>
+				</div>
+
+					<div class="col-lg-4 vestiusopen"><br>
+						<img src="http://www.sofascore.com/news/wp-content/uploads/2015/09/Stan-Wawrinka.jpg" width="100%">
+						<h4>Вавринка: Новаче, хвала ти, због тебе сам овде</h4>
+						<p>Стен Вавринка је први пут у каријери славио на Отвореном првенству САД у тенису, победом над најбољим играчем света Новаком</p>
+					</div>
+
+						<div class="col-lg-4 vestiusopen"><br>
+							<img src="http://www.alo.rs/resources/images/0000/025/233/1/25233-35_9ebe_1000x1000.jpg" width="100%">
+							<h4>Кецмановић поражен у јуниорском финалу</h4>
+							<p>Миомир Кецмановић није успео да освоји јуниорски Ју-Ес опен, пошто је у финалном мечу изгубио од Канађанина Феликса Ожера са 6:3,</p>
+						</div>
+
+
+
+			</div>
+			<hr>
+
+
+
+
+
+					
+						<div style="background-color: grey;" class="col-lg-12 sport">
+							<h4>СПОРТ</h4>
+						</div>
+				
+
+
+
+						<div class="row">
+							<div class="col-lg-4 spanovicka"><br>
+								<img src="http://www.24sata.rs/resources/images/0000/035/253/1/35253-ivana%20%C5%A1panovi%C4%87%20profimedia-0256552854_1fc5_1000x1000.jpg" width="100%">
+								<h4>Ивана Шпановић поправила државни рекорд</h4>
+								<p>Најбоља српска атлетичарка Ивана Шпановић поставила је нови државни рекорд у скоку у даљ, пошто је већ у првој серији такмичења у ...</p>
+
+							</div>
+
+								<div class="col-lg-4"> <!-- SADA CEMO OVO DA TRETIRAMO KAO 12 ZAPRAVO JE CETIRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII U REDU SPPPPPPPPPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRTTTTTTTT -->
+									<div class="col-lg-12">
+
+										<div class="col-lg-7"><br>
+										<img src="http://www.24sata.rs/resources/images/0000/006/250/1/6250-novak%20%C4%91okovi%C4%87%20%20foto%20ap%20(2)_f3dd_1000x1000.jpg" width="100%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Ђоковић убедљиво први на листи најбољих, Мари се приближио</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Први тенисер света Новак Ђоковић задржао је прво место светске ранг-листе и после пораза у финалу Отвореног првенства САД, али ће до </p>
+										</div>
+
+										<div class="row">
+										<div class="col-lg-12">
+											<div class="col-lg-7"><br>
+										<img src="http://ih1.redbubble.net/image.39669670.6996/flat,1000x1000,075,f.u2.jpg" width="100%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Повреда Џона Терија</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Капитен Челсија Џон Тери напустио је на штакама стадион Либерти после утакмице са Свонсијем, јер је у дословно последњем  </p>
+										</div>
+										</div>
+										</div>
+
+									</div>	
+
+								</div> <!-- FJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ-->
+
+
+									<div class="col-lg-4">
+										<!-- SADA CEMO OVO DA TRETIRAMO KAO 12 ZAPRAVO JE CETIRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII U REDU SPPPPPPPPPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRTTTTTTTT -->
+										<div class="col-lg-12">
+
+										<div class="col-lg-7"><br>
+										<img src="https://fu-uploads-prod.s3.amazonaws.com/2016/Sep/06/thumb_JR3Mng1aGDDOcPL9vULE.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Рагбиста у Аустралији преминуо од последица дуела на мечу</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Трагедија у Аустралији. Двадесетосмогодишњи Грент Кук преминуо... </p>
+										</div>
+
+										<div class="row">
+										<div class="col-lg-12">
+											<div class="col-lg-7"><br>
+										<img src="https://www.tennis-point.co.uk/out/pictures/generated/product/10/500_500_80/0054300749500000_10.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Кербер и званично прва на ВТА листи</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Свет женског тениса и званично је добио нову најбољу играчицу...  </p>
+										</div>
+										</div>
+										</div>
+
+
+											<div class="row">
+										<div class="col-lg-12">
+											<div class="col-lg-7"><br>
+										<img src="http://www.24sata.rs/resources/images/0000/049/982/1/49982-cz_uni220116_RAS_foto%20Marko%20Metlas02_c59f_500x500.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Кошаркаши Звезде најбољи на турниру у Вршцу</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Кошаркаши Црвене звезде освојили су турнир у Вршцу, пошто су...</p>
+										</div>
+										</div>
+											</div>
+
+
+
+										</div>	
+
+									</div> <!-- FJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						</div>
+
+
+
+
+
+
+
+
+
+
+									
+
+											<div style="background-color: grey;" class="col-lg-12 magazin">
+												<h4>МАГАЗИН</h4>
+											</div>
+
+
+
+
+
+<!-- NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII REEEEEEEEEEEDDDDDDDDDDD POTPUNOOOOOOOOOOOOOOOOOOOOOOOOOOOO issssssssssssssssssssspppppppppppppppppppppooooooooooooooooooooooddddddddddddddddddddddddddddddddddddd -->
+
+
+
+
+												<div class="row">
+							<div class="col-lg-4 spanovicka"><br>
+								<img src="https://ae01.alicdn.com/kf/HTB1J9UiMpXXXXXyXXXXq6xXFXXXr/S7-Edge-LED-Light-font-b-Display-b-font-Smart-Sleep-Flip-Leather-font-b-Cases.jpg" width="100%">
+								<h4>Нова опција „Фејсбук месинџера“</h4>
+								<p>„Фејсбук месинџер“ је увео опцију „Инстант видео“ која омогућава брзе разговоре „лицем у лице“ поред стандардних опција размене текста </p>
+
+							</div>
+
+								<div class="col-lg-4"> <!-- SADA CEMO OVO DA TRETIRAMO KAO 12 ZAPRAVO JE CETIRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII U REDU SPPPPPPPPPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRTTTTTTTT -->
+									<div class="col-lg-12">
+
+										<div class="col-lg-7"><br>
+										<img src="http://www.alo.rs/resources/images/0000/024/654/1/24654-profimedia-0268660431%20most_b40c_1000x1000.jpg" width="100%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Кинези ускоро завршавају највиши мост на свету</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Мост Беипанђијанг, у планинском региону југоисточне Кине, издиже се 565 метара изнад реке Беипан и, када буде завршен, преузеће </p>
+										</div>
+
+										<div class="row">
+										<div class="col-lg-12">
+											<div class="col-lg-7"><br>
+										<img src="http://g04.a.alicdn.com/kf/HTB1ghLWMVXXXXXIXpXXq6xXFXXXq/FLOVEME-Anti-drop-Clear-Cases-For-Samsung-Galaxy-Note-7-Case-Ultra-Crystal-Phone-Back-Shockproof.jpg" width="100%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Још један „галакси ноут 7“ експлодирао и повредио дечака</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Шестогодишњак из Њујорка задобио је опекотине када је „галакси ноут 7“ експлодирао док је гледао видео-снимке на уређају, преноси </p>
+										</div>
+										</div>
+										</div>
+
+									</div>	
+
+								</div> <!-- FJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ-->
+
+
+
+									<div class="col-lg-4">
+										<!-- SADA CEMO OVO DA TRETIRAMO KAO 12 ZAPRAVO JE CETIRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII U REDU SPPPPPPPPPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRTTTTTTTT -->
+										<div class="col-lg-12">
+
+										<div class="col-lg-7"><br>
+										<img src="http://jedel.bi/uploads/jedelbi/testenine_jajcevci.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Тестенина жене чини мршавијим?!</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Софија Лорен, једна од најлепших жена која се појавила на великом...</p>
+										</div>
+
+										<div class="row">
+										<div class="col-lg-12">
+											<div style="margin-top: -20px;" class="col-lg-7"><br>
+										<img src="http://www.wholesalepatiostore.com/images/Smart-solar-umbrella-solar-fountain-boy-and-girl-piggyback-20336R01-lifestyle-close-up.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Заменик министра критикован јер је преко баре пренет на кркаче</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Пљуште критике упућене јапанском званичнику кога је колега на...</p>
+										</div>
+										</div>
+										</div>
+
+
+											<div class="row">
+										<div class="col-lg-12">
+											<div class="col-lg-7"><br>
+										<img src="http://s3.amazonaws.com/trampt/images/products/000/224/519/CARBON_FIBER_SKULL-Jack_of_the_dust-Skull_Head_Jack_of_the_dust-trampt-224519o.jpg?1424256209" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Награда за „Скерцо дијаболико“, причу о освети „која има срце на правом месту“</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Фестивал „Дед лејк 2: Повратак хорора и вина“ завршен је синоћ...</p>
+										</div>
+										</div>
+											</div>
+
+
+
+										</div>	<hr>
+
+									</div> 
+
+
+									<!-- KKKKKKKKKKKKKKKKKKRRRRRRRRRRRRRRRRRRRRRRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJJJJJJJJJJJJJJJJJJ MAGAZIZZZZZZZZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNNNNNNNNNNNNNNNAAAAAAAAAAAAAAAAAA-->
+
+
+
+
+								
+
+
+						</div>
+								
+
+
+
+
+
+
+
+
+
+										<div style="background-color: grey;" class="col-lg-12 muzika"> <!-- NOVI POCETAK ROW -->
+			
+											<h4>МУЗИКА</h4> <!-- SIVAAAAAAAA TRAKAAAAAAA SA TV PREPORUKOOOM -->
+
+										</div>  <!-- KRAJ ROW -->
+
+
+
+										<div class="row">
+											<div class="col-lg-4 vestiusopen"><br>
+												<img src="http://marieclaire.media.ipcdigital.co.uk/11116/00008ec67/0efc/Beyoncethumb.jpg" width="100%">
+													<h4>Бијонсе је дива попут Арете Френклин</h4>
+													<p>Џек Вајт је један од малобројних који су са Бијонсе радили на њеном албуму "Lemonade". Музичар открива да је за њега реч о певачици </p>
+											</div>
+
+												<div class="col-lg-4 vestiusopen"><br>
+													<img src="https://res.cloudinary.com/equities-com/image/upload/v1/u/06524331e2c63c0ed3479bf1be85ce3b/mki1xwvsfxyazoezoq8t" width="100%">
+														<h4>Тимберлејкова турнеја на „Нетфликсу“</h4>
+															<p>Светска турнеја Џастина Тимберлејка "20/20 Experience" ће 16. октобра дебитовати на малим екранима у облику филма, за који редитељ </p>
+												</div>
+
+													<div class="col-lg-4 vestiusopen"><br>
+														<img src="https://images.rapgenius.com/88ef360da61999e17f712f3e709fce93.1000x1000x1.jpg" width="100%">
+															<h4>Кроз мехуриће најавила нови албум</h4>
+																<p>Изазовним селфијима на којима је у кади само са дијамантским накитом, Мараја Кери најавила је нови албум...</p>
+													</div>
+
+
+
+										</div>
+
+
+										<div style="background-color: grey;" class="col-lg-12 muzika"> <!-- NOVI POCETAK ROW -->
+			
+											<h4>ОБРАЗОВАЊЕ И НАУКА</h4> <!-- SIVAAAAAAAA TRAKAAAAAAA SA TV PREPORUKOOOM -->
+
+										</div>  <!-- KRAJ ROW -->
+
+
+
+										<div class="row">
+											<div class="col-lg-4 vestiusopen"><br>
+												<img src="http://www.thetaxidermystore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/2/12748_-_12.jpg" width="100%">
+													<h4>Рогови као борбено знамење сисара</h4>
+													<p>Животињски рогови својим изгледом и разноврсношћу облика од вајкада изазивају дивљење људи. Током историје представљали </p>
+											</div>
+
+												<div class="col-lg-4 vestiusopen"><br>
+													<img src=http://tucsonkathy.com/wp-content/uploads/2016/03/IMG_5502w.jpg width="100%">
+														<h4>Пустињски џин - сагуаро кактус</h4>
+															<p>У Сонара пустињи која се простире на Аризону, Калифорнију и мексичку државу Сонору, успева сагуаро кактус. То је највећа жива творевина у </p>
+												</div>
+
+													<div class="col-lg-4 vestiusopen"><br>
+														<img src="http://www.alo.rs/resources/images/0000/019/255/1/19255-SANU_140915_RAS%20foto%20Oliver%20Bunic08_f426_1000x1000.jpg" width="100%">
+															<h4>Огранак САНУ у Нишу</h4>
+																<p>Огранак Српске академије наука и уметности у Нишу, свечано ће бити отворен 16. септембра, саопштено је из САНУ. У огранак је, после </p>
+													</div>
+
+
+
+										</div>
+
+
+										<div style="background-color: grey;" class="col-lg-12 magazin">
+												<h4>ТВ ПРОГРАМ</h4>
+											</div>
+
+										<!-- NOVI ROWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW-->
+
+										<div class="row">
+							<div class="col-lg-4 spanovicka"><br>
+								<img src="http://2.bp.blogspot.com/-8ChstEzUE08/UF7dF1yW40I/AAAAAAAAAAM/zPtb7jZXXMQ/s1600/Trag+Mixtape+%2528Outlines%2529+%255BEdit%255D.jpg" width="100%">
+								<h4>Траг: Трагом гробова светлих</h4>
+								<p>Трагом спомен обележја српским војницима страдалим у Првом светском рату кренула је екипа емисије "Траг". Новица Савић је са екипом </p>
+
+							</div>
+
+								<div class="col-lg-4"> <!-- SADA CEMO OVO DA TRETIRAMO KAO 12 ZAPRAVO JE CETIRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII U REDU SPPPPPPPPPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRTTTTTTTT -->
+									<div class="col-lg-12">
+
+										<div class="col-lg-7"><br>
+										<img src="http://www.alo.rs/resources/images/0000/012/140/1/12140-kolo01_RAS_foto%20milos%20cvetkovic%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20_5f2e_1000x1000.jpg" width="100%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Ово је Србија</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Када ће бити завршена изградња фабрике воде, шта ће ова инвестиција, вредна 30 милиона динара, значити за мештане Ковачице и околних </p>
+										</div>
+
+										<div class="row">
+										<div class="col-lg-12">
+
+											<div class="col-lg-7"><br>
+										<img src="http://www.alo.rs/resources/images/0000/040/600/1/40600-46_e877_1000x1000.jpg" width="100%">
+											</div>
+
+											<div class="col-lg-5"><br>
+												<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Око економије: Ана Брнабић</h4>
+											</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Министарка за реформе...</p>
+										</div>
+										</div>
+										</div>
+
+									</div>	
+
+								</div> <!-- FJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ-->
+
+
+
+									<div class="col-lg-4">
+										<!-- SADA CEMO OVO DA TRETIRAMO KAO 12 ZAPRAVO JE CETIRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII U REDU SPPPPPPPPPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRTTTTTTTT -->
+										<div class="col-lg-12">
+
+										<div class="col-lg-7"><br>
+										<img src="http://jedel.bi/uploads/jedelbi/testenine_jajcevci.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Смртоносни удар</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Акциони филм са примесом трилера о човеку који се лажно представља...</p>
+										</div>
+
+										<div class="row">
+										<div class="col-lg-12">
+											<div style="margin-top: -20px;" class="col-lg-7"><br>
+										<img src="http://www.srbijadanas.com/sites/default/files/426/nk-maribor-liga-sampiona.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Фудбал - ЛШ: Реал Мадрид - Спортинг</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Реал Мадрид креће у одбрану титуле утакмицом са лисабонским Спортингом...</p>
+										</div>
+										</div>
+										</div>
+
+
+											<div class="row">
+										<div class="col-lg-12">
+											<div class="col-lg-7"><br>
+										<img src="http://s3.amazonaws.com/trampt/images/products/000/224/519/CARBON_FIBER_SKULL-Jack_of_the_dust-Skull_Head_Jack_of_the_dust-trampt-224519o.jpg?1424256209" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Културни дневник</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Гост Културног дневника је академски сликар Предраг Пеђа Милошевић...</p>
+										</div>
+										</div>
+											</div>
+
+
+
+										</div>	<hr>
+
+								
+
+
+									<!-- KKKKKKKKKKKKKKKKKKRRRRRRRRRRRRRRRRRRRRRRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJJJJJJJJJJJJJJJJJJ MAGAZIZZZZZZZZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNNNNNNNNNNNNNNNAAAAAAAAAAAAAAAAAA-->
+
+
+
+
+								
+
+
+						</div>
+						</div>
+
+
+								<div style="background-color: grey;" class="col-lg-12 magazin">
+												<h4>РАДИО ПРОГРАМ</h4>
+											</div>
+
+										<!-- NOVI ROWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW-->
+
+										<div class="row">
+							<div class="col-lg-4 spanovicka"><br>
+								<img src="https://ae01.alicdn.com/kf/HTB1J9UiMpXXXXXyXXXXq6xXFXXXr/S7-Edge-LED-Light-font-b-Display-b-font-Smart-Sleep-Flip-Leather-font-b-Cases.jpg" width="100%">
+								<h4>Директан пренос концерта Гудачког квартета Београдске филлхармоније.</h4>
+								<p>У понедељак, 12. септембра, од 21:00 сат, овај ансамбл ће у сали Дома културе у Неготину изводити гудачке квартете Петра Коњовића и </p>
+								
+
+							</div>
+
+								<div class="col-lg-4"> <!-- SADA CEMO OVO DA TRETIRAMO KAO 12 ZAPRAVO JE CETIRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII U REDU SPPPPPPPPPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRTTTTTTTT -->
+									<div class="col-lg-12">
+
+										<div class="col-lg-7"><br>
+										<img src="http://www.alo.rs/resources/images/0000/024/654/1/24654-profimedia-0268660431%20most_b40c_1000x1000.jpg" width="100%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Ухвати дан</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">У оквиру емисије емитујемо: 06:03 Јутарњи дневник; 06:35 Догодило се на данашњи дан; 07:00 Вести; 07:05 Добро јутро децо; 08:00 </p>
+										</div>
+
+										<div class="row">
+										<div class="col-lg-12">
+											<div class="col-lg-7"><br>
+										<img src="http://g04.a.alicdn.com/kf/HTB1ghLWMVXXXXXIXpXXq6xXFXXXq/FLOVEME-Anti-drop-Clear-Cases-For-Samsung-Galaxy-Note-7-Case-Ultra-Crystal-Phone-Back-Shockproof.jpg" width="100%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Таласање</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Да ли је на помолу нова мигрантска криза? Зашто словеначки премијер упозорава да би поновно отварање балканске руте довело до </p>
+										</div>
+										</div>
+										</div>
+
+									</div>	
+
+								</div> <!-- FJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ-->
+
+
+
+									<div class="col-lg-4">
+										<!-- SADA CEMO OVO DA TRETIRAMO KAO 12 ZAPRAVO JE CETIRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII U REDU SPPPPPPPPPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRTTTTTTTT -->
+
+										<div class="col-lg-12">
+
+										<div class="col-lg-7"><br>
+										<img src="http://jedel.bi/uploads/jedelbi/testenine_jajcevci.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Романо Тхем</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">У Србији постоји огромна етничка дистанца према припадницима...</p>
+										</div>
+
+										<div class="row">
+										<div class="col-lg-12">
+											<div style="margin-top: -20px;" class="col-lg-7"><br>
+										<img src="http://www.wholesalepatiostore.com/images/Smart-solar-umbrella-solar-fountain-boy-and-girl-piggyback-20336R01-lifestyle-close-up.jpg" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">У средишту пажње</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Има ли разлога за страх од анестезије? Какав је поступак кад...</p>
+										</div>
+										</div>
+										</div>
+
+
+											<div class="row">
+										<div class="col-lg-12">
+											<div class="col-lg-7"><br>
+										<img src="http://s3.amazonaws.com/trampt/images/products/000/224/519/CARBON_FIBER_SKULL-Jack_of_the_dust-Skull_Head_Jack_of_the_dust-trampt-224519o.jpg?1424256209" width="80%">
+										</div>
+
+										<div class="col-lg-5"><br>
+											<h4 style="line-height: 1; font-size: 14px; text-align: left; margin-left: -25px; margin-top: -2px; font-weight: bold; color: blue;">Широм затворених очију - Бајка</h4>
+										</div>
+
+										<div class="col-lg-12">
+											<p style="font-size: 12px; font-color: black;">Вечерас, од поноћи Бајка 202 у ноћном програму Широм затворених очију... </p>
+										</div>
+										</div>
+											</div>
+
+
+
+										</div>	<hr>
+
+								
+
+
+									<!-- KKKKKKKKKKKKKKKKKKRRRRRRRRRRRRRRRRRRRRRRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJJJJJJJJJJJJJJJJJJ MAGAZIZZZZZZZZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINNNNNNNNNNNNNNNNNNNNNNNAAAAAAAAAAAAAAAAAA-->
+
+
+
+
+								
+
+
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+											<div style="background-color: grey;" class="col-lg-12 magazin">
+												<h4>ИЗБОР РУБРИКА</h4>
+											</div>
+
+
+											
+
+
+											<div class="row">
+												<div class="col-lg-4 rubrika">
+												<h1>Политика</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Мој једини страх је нестабилност Балкана</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Вучић дочекан у Паризу уз државне почасти</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Жене, Роми и особе са инвалидитетом највише дискриминисани</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Председништво:Србија никада неће признати независно КИМ</p><hr>
+
+												</div>
+
+
+												
+												<div class="col-lg-4 rubrika">
+												<h1>Регион</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Додик у Москви на Путинов позив 22. септембра</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Нови земљотрес погодио Скопље и околину</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>БиХ, бившем припаднику СИПЕ 20 година затвора </p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Убиство у барском насељу Шушањ</p><hr>
+
+												</div>												
+
+
+
+												<div class="col-lg-4 rubrika">
+												<h1>Свет</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Историја болест, шта су крили амерички председници?</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Асанж 17. октобра одговара на оптужбе о силовању</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>СИ-БИ-ЕС цензурисао Била Клинтона</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>САД, пилот ф-16 се онесвестио, авион сам преузео контролу</p><hr>
+
+												</div>
+
+
+												<div class="col-lg-12">
+												<div class="row">
+
+												<div class="col-lg-4 rubrika">
+												<h1>Хроника</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Изгорео градски бус на Бањици, нема повређених</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Ухапшен Београђанин, због више разбојништава</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Нови Пазар, хапшења због нелегалне трговине</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Тужилаштво тражи притвор за осумњичане због утапања двојице дечака</p><hr>
+
+												</div>
+
+
+
+												<div class="col-lg-4 rubrika">
+												<h1>Друштво</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Које су могућности "бечитих студената" по новим правилима</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Вулин:потребне драстичније мере за мањи прилив миграната</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Весић:град на предлог премијера помаже фондацију Зоран Ђинђић</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Стојановић обишао повређеног Србина у Ораховцу</p><hr>
+
+												</div>
+
+
+												<div class="col-lg-4 rubrika">
+												<h1>Економија</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Антић и амбасадор Азербејджана о сараднњи у области енергетике</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Стиглиц:Евро је узрок већине проблема</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Расте продаја нових аутомобила</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Прва "Тенисова" фарма почетком 2017. године</p><hr>
+
+												</div>
+												</div>
+												</div>
+
+
+
+
+
+												<div class="col-lg-12">
+												<div class="row">
+												<div class="col-lg-4 rubrika">
+												<h1>Фудбал</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Избори у Партизану без Бјековића и опозиције</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Ристић и Манојловић верни шампиону</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Кокеза:Избор Чеферина велика победа за фудбал</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Ко је нови председник Уефе АЛександар Чефкерин</p><hr>
+
+												</div>
+
+
+												<div class="col-lg-4 rubrika">
+												<h1>Кошарка</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Србија жели мушко Светско и женско Европско првенство у кошарци</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Величковић:Останак у Партизану најнорманија одлука</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Новица Величковић остаје у Партизѕану</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Мулаомеровић прецртао Телетовића, није га повео за Шведску</p><hr>
+
+												</div>
+
+
+												<div class="col-lg-4 rubrika">
+												<h1>Тенис</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Руски хакери мна сајту ВАДА:Сестре Вилијамс биле допинговане</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Мари, можда би ти бољњ ишао фудбал</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Кирјос игра за Аустралију у Дејвис купу</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Почетком октобра одлука о суспензији Марије Шарапове</p><hr>
+
+												</div>
+												</div>
+												</div>
+
+
+
+												<div class="col-lg-12">
+												<div class="row">
+												<div class="col-lg-4 rubrika">
+												<h1>Занимљивости</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Откопан джиновски метеорит који је пре 4000 година погодио Земљу</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Успео харпуном да се одбрани од велике беле ајкуле</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Балет за жене преко 30, и плес и уживање</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Ајвар у продавници која храном снабдева британску краљицу</p><hr>
+
+												</div>
+
+
+												<div class="col-lg-4 rubrika">
+												<h1>Свет познатих</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Путинов селфи са младама</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Штимац:Случајно сам постао глумац</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Мишел Обама:За ћерке тежак период исељења из Беле куће</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Мељниченкови "камиони и авиони" поново у центру пажње</p><hr>
+
+												</div>
+
+
+
+												<div class="col-lg-4 rubrika">
+												<h1>Технологија</h1><br>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Покварио се тек лансирани израелски шпијунски сателит</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>ЕУ жели да уведе 5г мрежу</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Место у редовима за нови ајфон и до 3000 долара</p><hr>
+												<p><span class="glyphicon glyphicon-triangle-right"></span>Самсунгово решење за проблематичне батерије</p><hr>
+
+												</div>
+												</div>
+												</div>
+
+
+
+
+
+
+
+
+											</div>
+
+
+
+
+					
+
+
+
+	
+  <!-- KRAJ ROW -->
+
+				
+
+
+
+
+
+										</div>	<!-- LEVA STRANA EKRANA, TRETIRAMO KAO 12 KRAAAJ -->
+										<!--OVDE POCINJE DESNA STRANA SAJTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+
+										<div class="col-lg-3"> <!-- DDDDDDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESSSSSSSSSSSNNNNNNNNNNNNNNNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+									
+
+
+
+
+<div class="naslov col-lg-12">
+<h2>ПРОГНОЗА ЧЕТВРТАК, 01. СЕПТЕМБАР 2016</h2>
+</div>
+<div class="podnaslov1 col-lg-4">Прогноза</div>
+<div class="col-lg-4">
+<div class="dropdown" style="width:100%;">
+<button class="podnaslov2 dropdown-toggle" type="button" data-toggle="dropdown">
+<span class="caret"></span> Београд</button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Београд</a></li>
+	  <li><a href="#">Нови Сад</a></li>
+      <li><a href="#">Ниш</a></li>
+      <li><a href="#">Крагујевац</a></li>
+      <li><a href="#">Сомбор</a></li>
+	  <li><a href="#">Копаоник</a></li>
+    </ul>
+  </div>
+  </div>
+<div class="podnaslov3 col-lg-4">26 C</div>
+
+
+
+
+<div class="col-lg-12"><br>
+<img src="http://www.goldapartmentsbelgrade.com/wp-content/uploads/2016/08/bitef.jpg" width="100%">
+</div>
+
+
+
+<div class="col-lg-12"><br>
+<h6 style="background-color: darkblue; color: white; font-size: 18px; height: 200px;">Сладолед са малиганима<iframe width="100%" height="180" src="https://www.youtube.com/embed/OhSlFu-LON8" frameborder="0" allowfullscreen></iframe></h6>
+</div>
+
+
+<div class="col-lg-12">
+<img src="https://filmmafia.files.wordpress.com/2016/08/blood-father-french-poster.jpg" width="100%">
+</div>
+
+
+<div class="col-lg-12"><br>
+<img src="https://2.bp.blogspot.com/-eayrSe8db5s/V7yXjlR_GtI/AAAAAAAAX6Q/o8TIQaGqesgPL2zQR4e9PnWn1_NAUAvlwCLcB/s1600/paff2016%2B2.jpg" width="100%">
+</div>
+
+
+
+<div class="row">
+<div class="col-lg-12 spisak">
+	<ul>
+		<li>НАЈНОВИЈЕ</li>
+		<li>НАЈЧИТАНИЈЕ</li>
+	</ul>
+	<div class="spisak1" style="padding-left:10px;">
+
+	<form>
+  		
+  		<input style="width:65%; height:" type="text" id="searchbar" name="search">
+  		<button type="Search">Пронађи</button>
+  	</form>
+
+  		<div class="news">
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">1</li>
+  				<li style="width:70%;">Хоџај: Циљ мировни споразум са Србијом</li>
+  				<li style="width:20%;"><img src="https://ae01.alicdn.com/kf/HTB1CqCsIpXXXXciXpXXq6xXFXXXX/TOP-handpainted-art-oil-painting-work-British-politician-font-b-Robert-b-font-font-b-Anthony.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">2</li>
+  				<li style="width:70%;">Вучић за РТС: Очекујем више инвестиција из Француске</li>
+  				<li style="width:20%;"><img src="http://www.24sata.rs/resources/images/0000/004/839/1/4839-vucic_2fb1_1000x1000.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">3</li>
+  				<li style="width:70%;">ЕПС упозорава неплатише, наредни корак изршитељи</li>
+  				<li style="width:20%;"><img src="http://www.24sata.rs/resources/images/0000/004/839/1/4839-vucic_2fb1_1000x1000.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">4</li>
+  				<li style="width:70%;">Оланд и Меркелова о европској безбедности и борби против тероризма</li>
+  				<li style="width:20%;"><img src="http://www.24sata.rs/resources/images/0000/004/839/1/4839-vucic_2fb1_1000x1000.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">5</li>
+  				<li style="width:70%;">Џонсон: Бродове са мигрантима враћати у Либију</li>
+  				<li style="width:20%;"><img src="http://www.24sata.rs/resources/images/0000/004/839/1/4839-vucic_2fb1_1000x1000.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  	</div>
+
+  	<div class="spisak2" style="padding-left:10px; padding:left:15px; margin-top:350px;">
+
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">1</li>
+  				<li style="width:70%;">Хоџај: Циљ мировни споразум са Србијом</li>
+  				<li style="width:20%;"><img src="https://ae01.alicdn.com/kf/HTB1CqCsIpXXXXciXpXXq6xXFXXXX/TOP-handpainted-art-oil-painting-work-British-politician-font-b-Robert-b-font-font-b-Anthony.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">2</li>
+  				<li style="width:70%;">Вучић за РТС: Очекујем више инвестиција из Француске</li>
+  				<li style="width:20%;"><img src="http://www.24sata.rs/resources/images/0000/004/839/1/4839-vucic_2fb1_1000x1000.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">3</li>
+  				<li style="width:70%;">ЕПС упозорава неплатише, наредни корак изршитељи</li>
+  				<li style="width:20%;"><img src="http://www.24sata.rs/resources/images/0000/004/839/1/4839-vucic_2fb1_1000x1000.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">4</li>
+  				<li style="width:70%;">Оланд и Меркелова о европској безбедности и борби против тероризма</li>
+  				<li style="width:20%;"><img src="http://www.24sata.rs/resources/images/0000/004/839/1/4839-vucic_2fb1_1000x1000.jpg" width="53"></li>
+  			</ul>
+  		</div>
+
+  		<div class="col-lg-12 novost" style="border-bottom: 1px solid lightgrey;">
+  			<ul>
+  				<li style="color:grey; font-size:30px; width:10%; margin-left:-25px; padding-right:30px;">5</li>
+  				<li style="width:70%;">Џонсон: Бродове са мигрантима враћати у Либију</li>
+  				<li style="width:20%;"><img src="http://www.24sata.rs/resources/images/0000/004/839/1/4839-vucic_2fb1_1000x1000.jpg" width="53"></li>
+  			</ul>
+  		</div>
+  		</div>
+
+  	</div>
+</div>
+</div>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										</div>  <!-- DDDDDDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESSSSSSSSSSSNNNNNNNNNNNNNNNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA      kkkkkkkkkkkkkkkkkkkkkkraaaaaj -->
+
+
+
+
+
+
+										<footer>
+											<div class="container-fluid">
+												<div class="col-lg-12">
+												<ul>
+												<li>Политика</li>   
+												<li>Регион</li>
+												<li>Свет</li>
+												<li>Србија данас</li>
+												<li>Хроника</li>
+												<li>Друштво</li>
+												<li>Економија</li>
+												<li>Култура</li>
+												<li>Мерила времена</li>
+												<li>Време</li>
+												<li>Сервисне вести</li>
+												<li>Видео дана</li>
+												</ul>
+												</div>
+											</div>
+										</footer>
+
+
+
+
+										
+</div>
+
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+  
+ 
